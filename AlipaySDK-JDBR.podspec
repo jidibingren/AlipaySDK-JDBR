@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "http:///github.com/jidibingren/AlipaySDK-JDBR.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/jidibingren/AlipaySDK-JDBR.git", :tag => s.version }
 
   s.ios.deployment_target = '7.0'
   
