@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AlipaySDK-JDBR"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "AlipaySDK for iOS"
 
   s.description  = <<-DESC
@@ -30,6 +30,8 @@ Pod::Spec.new do |s|
   
   s.public_header_files = 'AlipaySDK.framework/Headers/**/*.h'
   
-  s.frameworks = 'CoreTelephony', 'SystemConfiguration'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
+
+  s.library = 'z', 'c++'
 
 end
